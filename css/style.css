@@ -1,0 +1,57 @@
+body {
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1e1de;
+    padding: 20px 0;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.one a img {
+    height: 100px;
+}
+
+nav {
+    background-color: #333;
+}
+
+#list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#list li {
+    margin: 0;
+}
+
+#list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#list li a:hover {
+    background-color: #575757;
+}
+
+footer {
+    background-color: #f1e1de;
+    padding: 20px;
+    text-align: center;
+}
